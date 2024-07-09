@@ -1,1 +1,20 @@
+footer {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 15px;
+  color: #155263;
+}
 
+.App .links {
+  text-decoration: none;
+  color: #155263;
+  font-weight: 600;
+}
+
+.App .links:hover {
+  font-weight: 700;
+}
+
+.App .bold {
+  font-weight: 600;
+}

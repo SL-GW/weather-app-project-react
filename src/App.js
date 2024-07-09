@@ -9,8 +9,10 @@ export default function App() {
         <Weather />
 
         <footer>
-          This project was created by Sarah Gray. It is open-sourced on{" "}
+          This project was created by <span className="bold">Sarah Gray</span>.
+          It is open-sourced on{" "}
           <a
+            className="links"
             href="https://github.com/SL-GW/weather-app-project-react"
             target="_blank"
             rel="noreferrer"
@@ -19,6 +21,7 @@ export default function App() {
           </a>{" "}
           and is hosted on{" "}
           <a
+            className="links"
             href="https://weather-app-project-with-react.netlify.app/"
             target="_blank"
             rel="noreferrer"

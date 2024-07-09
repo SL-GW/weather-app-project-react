@@ -1,3 +1,82 @@
 .Weather {
-  border: solid 1px #b0b0b0;
+  border: solid 2px #155263;
+  border-radius: 4px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  color: #155263;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 25%;
+  margin-right: 20%;
+  margin-top: 50px;
+  max-width: 50%;
+  padding: 25px;
+}
+
+.Weather h1 {
+  font-size: 40px;
+  margin: 20px 0px 0px 0px;
+}
+
+.Weather ul {
+  padding-left: 0px;
+}
+
+.Weather li {
+  display: block;
+  font-size: 16px;
+  list-style-type: none;
+  opacity: 0.8;
+  text-align: left;
+}
+
+.Weather .searchBox {
+  border: solid 2px #155263;
+  border-radius: 4px;
+  font-size: 18px;
+  margin-right: 20px;
+  padding: 5px;
+  width: 450px;
+}
+
+.Weather .searchButton {
+  background: #155263;
+  border: solid 1px #155263;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  padding: 5px;
+  width: 100px;
+}
+
+.Weather .searchButton:hover {
+  background: white;
+  border: solid 2px #155263;
+  color: #155263;
+}
+
+.Weather .weatherIcon {
+  position: relative;
+  bottom: 20px;
+  width: 50px;
+}
+
+.Weather .temperature {
+  font-size: 65px;
+  font-weight: 500;
+  line-height: 65px;
+  padding-left: 15px;
+}
+
+.Weather .unit {
+  position: relative;
+  bottom: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-left: 2px;
+}
+
+.Weather .weatherUnitDisplay {
+  font-weight: 500;
 }
