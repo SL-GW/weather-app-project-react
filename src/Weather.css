@@ -30,6 +30,15 @@
   text-align: left;
 }
 
+.Weather a {
+  text-decoration-line: none;
+  color: #155263;
+}
+
+.Weather a:hover {
+  opacity: 0.8;
+}
+
 .Weather .searchBox {
   border: solid 2px #155263;
   border-radius: 4px;
