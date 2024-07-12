@@ -8,7 +8,7 @@
 }
 
 .WeatherForecast .forecastIcon {
-  width: 80px;
   display: block;
   margin: auto;
+  width: 80px;
 }
