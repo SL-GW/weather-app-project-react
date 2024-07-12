@@ -3,12 +3,12 @@
 }
 
 .WeatherForecast .forecastTemperatureMin {
-  margin-left: 5px;
+  margin-left: 10px;
   opacity: 0.8;
 }
 
 .WeatherForecast .forecastIcon {
-  width: 32px;
+  width: 80px;
   display: block;
   margin: auto;
 }
